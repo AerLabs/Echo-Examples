@@ -3,7 +3,7 @@ import json
 
 url = "https://echo.aerlabs.com/v1/noise"
 
-with open('noise.json', 'r') as file:
+with open('noise_input.json', 'r') as file:
     data=file.read()
 
 token = input("please input your token")
